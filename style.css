@@ -1,0 +1,112 @@
+@font-face {font-family: Pusab; src: ('assets/Pusab.ttf')}
+body {
+    background-image: linear-gradient(#0065FD, #002E73);
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow:hidden;
+    font-family: sans-serif;
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: Pusab, Arial;
+    font-weight: normal;
+    margin: 0% 0%;
+    letter-spacing: -0.01em;
+    -webkit-text-size-adjust: 100%;
+}
+h1 {
+    color: white;
+    font-size: 6vh;
+    line-height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-text-stroke-width: 0.25vh;
+    -webkit-text-stroke-color: black;
+    text-shadow: 0.375vh 0.375vh 0vh rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-family: aller, helvetica, arial;
+    color: white;
+    font-size: 2.9vh;
+    word-break: break-word;
+}
+
+.brownbox {
+    border: 2.5vh solid transparent;
+    border-radius: 3vh;
+    background-color: #995533;
+    border-image: url('assets/brownbox.png') 10% round;
+}
+.center {
+    text-align: center;
+    max-width: 100%;
+}
+.supercenter {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+}
+
+cr { color: #ff5a5a }
+co { color: #ffa54b }
+cy { color: #ffff00 }
+cg { color: #40e348 }
+ca { color: #00ffff }
+cb { color: #60abef }
+cp { color: #ff00ff }
+
+.basicbutton {
+    user-select:none;
+    cursor: pointer;
+}
+.basicbutton:hover {
+    filter: brightness(90%)
+}
+
+.messageInput {
+    font-size: 3.5vh;
+    text-align: left;
+    padding: 1.5%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+input[type=text], input[type=password], input[type=number] {
+    padding-left: 1.2%;
+    border-radius: 1vh;
+    height: 80%;
+    margin-top: 1%;
+    width: 65%;
+    font-size: 5vh;
+    font-family: Pusab, Arial;
+}
+textarea {
+    resize: none;
+    font-family: aller, helvetica, arial;
+    padding: 2% 1%;
+    border-radius: 1vh;
+    height: 18.5vh;
+    margin-top: 1%;
+    width: 90%;
+    font-size: 3vh;
+    color: white;
+    text-align: center;
+    word-break: break-word;
+    white-space: initial !important;
+}
+
+textarea::-webkit-scrollbar {
+    height: 8%;
+    width: 1.5vh;
+    background: #6d3c24;
+}
+  
+textarea::-webkit-scrollbar-thumb {
+    background: rgb(83, 47, 28);
+    overflow: hidden;
+}

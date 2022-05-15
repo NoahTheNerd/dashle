@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="startPopup">
+            <div data-nosnippet="" id="tooSmall" class="brownbox center supercenter" style="width: 45%;">
+                <h1>Dashle</h1>
+                <p>Dashle is a <ca>word guessing game</ca> but instead of guessing <cg>words</cg>, you guess <cy>Geometry Dash level names</cy>!<br><br>A new <ca>Dashle</ca> is available each day.</p>
+                <!--<p style="font-size: 1.8vh">It's literally a wordle clone i'm not going to teach you how to play okay???</p>-->
+                <img src="assets/ok.png" style="height: 7vh" class="basicbutton" onclick="startGame()">
+            </div>
+        </div>
+        <div id="game" hidden>
+            <div data-nosnippet="" id="tooSmall" class="brownbox center supercenter" style="width: 45%; height: 75%;">
+                <h1>Dashle</h1>
+                <input class="messageInput" type="text">
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
